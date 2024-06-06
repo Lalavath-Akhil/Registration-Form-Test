@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="qaregform" parallel="classes" thread-count="2">
+    <test name="RegistrationFormTest3">
+        <classes>
+            <class name="RegistrationFormReport"/>
+            <class name="RegistrationFormTest3"/>
+        </classes>
+    </test>
+</suite>
